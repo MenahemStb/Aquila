@@ -12,7 +12,7 @@ fi
 # Installer les prérequis
 echo "Installation des prérequis..."
 sleep 2
-pip install markdown weasyprint jinja2 dnspython
+pip install markdown weasyprint jinja2 dnspython builtwith
 
 if [ $? -eq 0 ]; then
     echo -e "\e[32mLes prérequis ont été installés avec succès\e[0m"
